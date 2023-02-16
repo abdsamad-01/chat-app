@@ -22,16 +22,17 @@
     cursor: pointer;
     border: 1px solid #ccc;
     background-color: transparent;
-    border-radius: 3px;
+    border-radius: 4px;
 
     
 }
 .GoogleIcon {
-    height: 15px;
-    width: 15px;
+    height: 17px;
+    width: 17px;
     object-fit: contain;
 }
 
 .GoogleButton p {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
+    font-weight: 500;
 }
