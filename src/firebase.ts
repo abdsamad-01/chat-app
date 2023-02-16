@@ -5,11 +5,11 @@ import { getFirestore, query, getDocs, collection, where, addDoc } from "firebas
 
 const firebaseConfig = {
     apiKey: "AIzaSyC_34gUPo0GVCduaqUik4AU9Ugpf8QnPz0",
-    authDomain: `${process.env.AUTH_DOMAIN}`,
-    projectId: `${process.env.PROJECT_ID}`,
-    storageBucket: `${process.env.STORAGE_BUCKET}`,
-    messagingSenderId: `${process.env.MESSAGING_SENDER_ID}`,
-    appId: `${process.env.APP_ID}`
+    authDomain: "chat-app-a3fea.firebaseapp.com",
+    projectId: "chat-app-a3fea",
+    storageBucket: "chat-app-a3fea.appspot.com",
+    messagingSenderId: "811218322329",
+    appId: "1a7852ffcfe4fa95fa4908"
 };
 
 // Initialize Firebase
