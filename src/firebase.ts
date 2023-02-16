@@ -2,6 +2,7 @@ import { initializeApp } from "firebase/app"
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { getFirestore, query, getDocs, collection, where, addDoc } from "firebase/firestore";
 
+const NODE_ENV = process.env.NODE_ENV;
 
 const firebaseConfig = {
     apiKey: `${process.env.API_KEY}`,
