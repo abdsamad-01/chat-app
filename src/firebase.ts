@@ -2,10 +2,9 @@ import { initializeApp } from "firebase/app"
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { getFirestore, query, getDocs, collection, where, addDoc } from "firebase/firestore";
 
-const NODE_ENV = process.env.NODE_ENV;
 
 const firebaseConfig = {
-    apiKey: `${process.env.API_KEY}`,
+    apiKey: "AIzaSyC_34gUPo0GVCduaqUik4AU9Ugpf8QnPz0",
     authDomain: `${process.env.AUTH_DOMAIN}`,
     projectId: `${process.env.PROJECT_ID}`,
     storageBucket: `${process.env.STORAGE_BUCKET}`,
